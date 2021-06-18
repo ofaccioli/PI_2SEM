@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PI2.exe" version="1.0.0.0" publicKeyToken="32418d2a3298b706" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PI2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PI2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PI2.exe" size="600024">
+      <assemblyIdentity name="PI2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>33LSrWPMxx0VcAamP0dGDdZNoTposJYu8zH6V31/6yw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PI2.exe.config" size="508">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FIkPaNM4FS/XSK1eKGlb3xy7HEaaJfDJ1xI0kn83+LQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=OTAVIO-PC-GMR\otavi" issuerKeyHash="9d23a3f98284a78999ec43dce248b3c708225f95" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4L38XArgTQJf5YgKQHPl1ucxhWeB7cnKe0FIcDlmau0=</DigestValue></Reference></SignedInfo><SignatureValue>CuY+UpVoNz3ZcZ1CVVzkW1V8yS/G6ZKjg69rSt5k5+DZCgkveQ8NvOydb9Q/CzM3lq+zq292aLUYi0RhWfcZ0OmU3rSqa8UdVQQjXVSdQ6gRK+hvt1WTn6MtvtrWDkjunc9zxA6RqCVybHrfM54grigAwZK1tBHeG/qpr5A/s4M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0DGNf0hUpry+pgZHxCvxZsznTdzk2Z5VkcXGrsERjm0UWVyYlLr98ord48j62exOSdGvaHT8cioZSJ1hElfUNuoquRncwng5ZJMEbzSeYc714Gi022aUSRHw/6MlRCQiossUE5UASegEgXMZm09Ra89B8ziqkWAelaVMHbX2hgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ed6a66397048417bcac9ed81678531e7d6e573400a88e55f024de00a5cfcbde0" Description="" Url=""><as:assemblyIdentity name="PI2.exe" version="1.0.0.0" publicKeyToken="32418d2a3298b706" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OTAVIO-PC-GMR\otavi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>H4FGcYRnltKXcNA8KJ6I1jT3O1YSFEMHCSz8EEY7Sh4=</DigestValue></Reference></SignedInfo><SignatureValue>fm829Y8omDGdDiBpBKGNKh7WVTFW53ViAUpvjq9/HEBVxCD0btcnf2bsgLrRYswphJzZSYHkotL+8ysaIJOKW06rkiFyS1Fdg7SlOaacQO6/pAx3OpHiQOo6u4XasEtC4nMyF6nGfT8EkEHYZm3ZDMaxCUUFujmYMuqIDncCB5M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0DGNf0hUpry+pgZHxCvxZsznTdzk2Z5VkcXGrsERjm0UWVyYlLr98ord48j62exOSdGvaHT8cioZSJ1hElfUNuoquRncwng5ZJMEbzSeYc714Gi022aUSRHw/6MlRCQiossUE5UASegEgXMZm09Ra89B8ziqkWAelaVMHbX2hgk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQdKmWdTzQY4RNpX4dYTwgUTANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYATwBUAEEAVgBJAE8ALQBQAEMALQBHAE0AUgBcAG8AdABhAHYAaTAeFw0yMTA2MTcwMDIzNDZaFw0yMjA2MTcwNjIzNDZaMDExLzAtBgNVBAMeJgBPAFQAQQBWAEkATwAtAFAAQwAtAEcATQBSAFwAbwB0AGEAdgBpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQMY1/SFSmvL6mBkfEK/FmzOdN3OTZnlWRxcauwRGObRRZXJiUuv3yit3jyPrZ7E5J0a9odPxyKhlInWESV9Q26iq5GdzCeDlkkwRvNJ5hzvXgaLTbZpRJEfD/oyVEJCKiyxQTlQBJ6ASBcxmbT1Frz0HzOKqRYB6VpUwdtfaGCQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIPkZp0EGG/QSFRWy75BchQkCqNkWDD+fceUGZETujXDCWj9mEVLOnsXmddRITCh/3t+4/ipMvHgyJQSRD9ngpsl0B0JtaYwjKZRQA5V7taHQVxqD4+A4yQBrM3CXH1a9jXcNHCq1JWvQTSQ02NEqrN2BAuXS+JvuyzGIQqtKgxR</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

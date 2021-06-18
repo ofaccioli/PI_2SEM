@@ -1,0 +1,63 @@
+CREATE TABLE dbo.tb_faculdade(
+	cod_faculdade int IDENTITY PRIMARY KEY,
+	nome_faculdade VARCHAR(50)	
+)
+GO
+CREATE TABLE dbo.tb_disciplina(
+	cod_disciplina int IDENTITY PRIMARY KEY,
+	cod_curso int,
+	nome_disciplina VARCHAR(50)	
+)
+GO
+CREATE TABLE dbo.tb_aluno(
+	cod_aluno int IDENTITY PRIMARY KEY,
+	cod_faculdade int,
+	cod_curso int,
+	nome_alun VARCHAR(50),
+	cpf_alun int,
+	email_alun VARCHAR(50),
+	fone_alun int,
+	nascimento_alun DATE,
+	perfil_alun int,
+	usuario varchar(50),
+	senha varchar(50)
+)
+GO
+CREATE TABLE dbo.tb_curso(
+	cod_curso int IDENTITY PRIMARY KEY,
+	nome_curso VARCHAR(50)	
+)
+GO 
+CREATE TABLE dbo.tb_participantes(
+	cod_aluno int,
+	cod_tarefa int	
+)
+GO
+CREATE TABLE dbo.tb_tarefas(
+	cod_tarefa int IDENTITY PRIMARY KEY,
+	cod_disciplina int,
+	data_entrega_tarefa DATE,
+	descricao_tarefa VARCHAR(1000),
+	andamento_tarefa VARCHAR(20)
+)
+GO
+insert into tb_aluno(cod_faculdade, 
+			         cod_curso,
+			         nome_alun,
+			         cpf_alun,
+			         email_alun,
+			         fone_alun,                                                       
+			         nascimento_alun,
+			         perfil_alun,
+			         usuario,
+			         senha)
+              values (1,
+                      1, 
+                      'Camila',
+                      '406.073.458-08',
+                      'teste@teste.com',
+                      '(19)99999-9999',
+                      '31/12/2000',
+                      'Administrador',
+                      'admin',
+                      'admin')

@@ -1,0 +1,49 @@
+C:\Users\otavi\source\repos\PI2\PI2\obj\Debug\PI2.csprojAssemblyReference.cache
+C:\Users\otavi\source\repos\PI2\PI2\obj\Debug\PI2.frmLogin.resources
+C:\Users\otavi\source\repos\PI2\PI2\obj\Debug\PI2.SplashScreen.resources
+C:\Users\otavi\source\repos\PI2\PI2\obj\Debug\PI2.Properties.Resources.resources
+C:\Users\otavi\source\repos\PI2\PI2\obj\Debug\PI2.csproj.GenerateResource.cache
+C:\Users\otavi\source\repos\PI2\PI2\obj\Debug\PI2.csproj.CoreCompileInputs.cache
+C:\Users\otavi\source\repos\PI2\PI2\bin\Debug\PI2.exe.config
+C:\Users\otavi\source\repos\PI2\PI2\bin\Debug\PI2.exe
+C:\Users\otavi\source\repos\PI2\PI2\bin\Debug\PI2.pdb
+C:\Users\otavi\source\repos\PI2\PI2\obj\Debug\PI2.exe
+C:\Users\otavi\source\repos\PI2\PI2\obj\Debug\PI2.pdb
+C:\Users\otavi\source\repos\PI2\PI2\obj\Debug\PI2.frmPrincipal.resources
+C:\Users\otavi\source\repos\PI2\PI2\obj\Debug\PI2.frmCadFaculdade.resources
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.csprojAssemblyReference.cache
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.frmCadFaculdade.resources
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.frmPrincipal.resources
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.frmLogin.resources
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.SplashScreen.resources
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.Properties.Resources.resources
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.csproj.GenerateResource.cache
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.csproj.CoreCompileInputs.cache
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.exe
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.pdb
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\bin\Debug\PI2.exe.config
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\bin\Debug\PI2.exe
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\bin\Debug\PI2.pdb
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.frmCadCurso.resources
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.frmCadDisciplina.resources
+C:\Users\gisan\Desktop\Projetos Vintepila\PI2-1-1\PI2\PI2\obj\Debug\PI2.frmCadAluno.resources
+C:\Users\otavi\Desktop\PI2\PI2\bin\Debug\PI2.exe.config
+C:\Users\otavi\Desktop\PI2\PI2\bin\Debug\PI2.exe
+C:\Users\otavi\Desktop\PI2\PI2\bin\Debug\PI2.pdb
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.csprojAssemblyReference.cache
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.frmCadAluno.resources
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.frmCadDisciplina.resources
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.frmCadCurso.resources
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.frmCadFaculdade.resources
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.frmPrincipal.resources
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.frmLogin.resources
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.SplashScreen.resources
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.Properties.Resources.resources
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.csproj.GenerateResource.cache
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.csproj.CoreCompileInputs.cache
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.exe
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.pdb
+C:\Users\otavi\Desktop\PI2\PI2\bin\Debug\PI2.exe.manifest
+C:\Users\otavi\Desktop\PI2\PI2\bin\Debug\PI2.application
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.exe.manifest
+C:\Users\otavi\Desktop\PI2\PI2\obj\Debug\PI2.application
